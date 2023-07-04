@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="bento.js" defer></script>
+
+    <title>OMO Bento Link</title>
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header class="column">
+        <h1 class="centered">Link Bento</h1>
+        <p class="centered">Make a link lunchbox that you can send to your friends or family</p>
+        <h2>What is this?</h2>
+        <p>Inspired by the japanese lunch box called "bento" the idea is to 
+            make a "lunch box" of carefully selected links that you send to your 
+            friends or family with a single link.</p>
+        <h2>Make your link bento</h2>
+    </header>
+
+    <!-- FORM SECTION -->
+    <form action="" class="column">
+        <label for="">Title</label>
+        <input type="text" />
+        <label for="">Author</label>
+        <input type="text" />
+        <label for="">Description</label>
+        <input type="text" />
+
+        <div>
+            <!-- fill dynamically -->
+        </div>
+
+        <button>Add Link</button>
+    </form>
+
+    <!-- CONTROL BUTTONS SECTION -->
+    <div class="column">
+        <button id="generate-bento-link">Generate Bento Link</button>
+        <p></p>
+        <span id="message" class="centered"></span>
+        <button id="copy-button">Copy to clipboard</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+:root{
+    font-family: 'Pangolin', cursive;
+    color: #28282b;
+    font-size: calc(1em + 0.1vw);
+}
+
+.centered{
+    text-align: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    margin: 0 30vw;
+    align-items: stretch;
+}
+
+@media only screen and (max-width: 800px){
+    .column{
+        margin: 0 10vw;
+    }
+}
