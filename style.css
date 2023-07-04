@@ -15,6 +15,33 @@
     align-items: stretch;
 }
 
+button{
+    padding: 0.5vh 0;
+    color: #28282b;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #28282b;
+    background-color: #dedede;
+    font-family: 'Pangolin', cursive;
+    font-size: 1rem;
+}
+
+button:active{
+    background-color: #a1a1a1;
+}
+
+input{
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #28282b;
+    font-family: 'Pangolin', cursive;
+    font-size: 1rem;
+}
+
+#generate-bento-link{
+    margin-top: 4vh;
+}
+
 @media only screen and (max-width: 800px){
     .column{
         margin: 0 10vw;
